@@ -1,1 +1,1 @@
-console.log()
+console.log("im starting to get the hang of this thing, yo!");
