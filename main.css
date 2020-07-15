@@ -1,12 +1,12 @@
 body {
   background-color: lightgoldenrodyellow;
 }
-
+/** navigation */
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: deepskyblue;
+  background-color: red;
 }
 
 .logo {
@@ -36,4 +36,18 @@ ul a {
 
 ul a:hover {
   background: bisque;
+}
+/**** dogs */
+
+.kobe {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.kobe img {
+  height: 500px;
+  margin: 50px;
+  width: 300px;
+
 }
