@@ -1,3 +1,39 @@
 body {
-  background-color: blue;
+  background-color: lightgoldenrodyellow;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: deepskyblue;
+}
+
+.logo {
+  padding: 1em;
+  text-transform: capitalize;
+}
+.logo a {
+  color: rgb(yellow, green, blue);
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+} 
+
+.logo a,
+ul a {
+  text-decoration: none;
+  letter-spacing: .45em;
+}
+
+ul a {
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+ul a:hover {
+  background: bisque;
 }
