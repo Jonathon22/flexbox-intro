@@ -1,12 +1,12 @@
 body {
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(23, 64, 139);
 }
 /** navigation */
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: rgb(201, 8, 42);
 }
 
 .logo {
@@ -14,7 +14,7 @@ body {
   text-transform: capitalize;
 }
 .logo a {
-  color: rgb(yellow, green, blue);
+  color: rgb(23, 64, 139);
 }
 
 ul {
@@ -31,7 +31,7 @@ ul a {
 ul a {
   display: block;
   padding: 1em;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 ul a:hover {
@@ -50,4 +50,10 @@ ul a:hover {
   margin: 50px;
   width: 300px;
 
+}
+
+.jordan {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
